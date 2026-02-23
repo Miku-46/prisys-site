@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CONCAFE｜病みかわ♡センセーション</title>
+  <meta name="description" content="病みかわ♡センセーション コンカフェ運営（展開）情報。世界観を体験へ。">
+  <meta name="theme-color" content="#0a0008">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursor-ring"></div>
+<canvas id="glitter-canvas"></canvas>
+
+<a class="skip" href="#main">本文へ</a>
+
+<header class="header" data-scrolled="false">
+  <div class="header__inner container">
+    <a class="brand" href="./index.html">
+      <span class="brand__mark">🖤</span>
+      <span class="brand__text">
+        <span class="brand__name">病みかわ♡センセーション</span>
+        <span class="brand__sub">CONCAFE</span>
+      </span>
+    </a>
+    <nav class="nav">
+      <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="navMenu">
+        <span class="nav__toggleIcon" aria-hidden="true"></span>
+        <span class="nav__toggleText">MENU</span>
+      </button>
+      <div class="nav__menu" id="navMenu">
+        <a href="./index.html">TOP</a>
+        <a href="./members.html">MEMBER</a>
+        <a href="./audition.html" class="nav__hot">AUDITION</a>
+        <a href="./index.html#company">運営情報</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ── HERO ── -->
+  <section class="hero">
+    <div class="hero__bg" aria-hidden="true"></div>
+    <div class="hero__inner">
+      <div class="pill">CONCAFE</div>
+      <h1 class="hero__title">闇かわ<br>コンカフェ運営</h1>
+      <p class="hero__lead">
+        "依存×共犯×きらきら闇"を、<br>
+        触れられる空間へ。世界観を体験する場を運営・展開します。
+      </p>
+      <div class="hero__cta">
+        <a class="btn" href="mailto:yami.kawa.sensation@gmail.com?subject=【CONCAFE】問い合わせ">お問い合わせ</a>
+        <a class="btn btn--ghost" href="./index.html">トップへ</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── DETAIL ── -->
+  <section class="section section--alt" id="detail">
+    <div class="container">
+      <div class="section__head reveal">
+        <div class="divider-row"><div class="divider-line"></div><span class="divider-star">✦</span><div class="divider-line"></div></div>
+        <h2>DETAIL</h2>
+        <p>運営内容</p>
+      </div>
+
+      <div class="grid grid--3" style="margin-bottom:24px;">
+        <div class="project-card reveal">
+          <span class="project-icon">🌙</span>
+          <h3>世界観</h3>
+          <p>かわいい×闇×ネオン。制服/メニュー/演出まで統一。</p>
+        </div>
+        <div class="project-card reveal" style="transition-delay:.1s">
+          <span class="project-icon">✨</span>
+          <h3>イベント</h3>
+          <p>生誕・季節・コラボなど、IP連動で熱量を作る。</p>
+        </div>
+        <div class="project-card reveal" style="transition-delay:.2s">
+          <span class="project-icon">💉</span>
+          <h3>採用（予定）</h3>
+          <p>キャスト/運営メンバー募集（準備中）。</p>
+        </div>
+      </div>
+
+      <div class="card reveal">
+        <h3 class="h3">窓口・お問い合わせ</h3>
+        <dl class="dl">
+          <div><dt>MAIL</dt><dd><a class="link" href="mailto:yami.kawa.sensation@gmail.com">yami.kawa.sensation@gmail.com</a></dd></div>
+          <div><dt>TEL</dt><dd><a class="link" href="tel:08042974059">080-4297-4059</a></dd></div>
+        </dl>
+        <div class="miniLinks" style="margin-top:20px;">
+          <a class="btn btn--ghost" href="mailto:yami.kawa.sensation@gmail.com?subject=【CONCAFE】問い合わせ">お問い合わせメールを送る</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONCEPT ── -->
+  <section class="section">
+    <div class="container">
+      <div class="section__head reveal">
+        <div class="divider-row"><div class="divider-line"></div><span class="divider-star">✦</span><div class="divider-line"></div></div>
+        <h2>CONCEPT</h2>
+        <p>コンカフェのコンセプト</p>
+      </div>
+      <div class="about-grid">
+        <div class="reveal">
+          <p style="color:rgba(252,228,255,.8);line-height:2;font-size:.95rem;margin-bottom:20px;">
+            病みかわ♡センセーションのコンカフェは、<br>
+            単なる"会えるカフェ"ではありません。<br><br>
+            <strong style="color:var(--pink)">「依存×共犯×きらきら闇」</strong>の世界観ごと<br>
+            体験できる没入空間を作ります。<br><br>
+            入店した瞬間から、あなたは共犯者。
+          </p>
+          <div class="keyword-row">
+            <span class="keyword keyword-1">没入体験</span>
+            <span class="keyword keyword-2">世界観統一</span>
+            <span class="keyword keyword-3">IP連動</span>
+            <span class="keyword keyword-4">闇かわ空間</span>
+          </div>
+        </div>
+        <div class="about-visual reveal" style="transition-delay:.15s;">
+          <div class="orb">☕</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__left">
+      <div class="footerBrand">
+        <span class="footerBrand__mark">🖤</span>
+        <span class="footerBrand__text">病みかわ♡センセーション</span>
+      </div>
+      <div class="footer__small">© <span id="year">2026</span> 病みかわ委員会 / 株式会社菊池</div>
+    </div>
+    <div class="footer__right">
+      <a class="link" href="./index.html">トップ →</a>
+    </div>
+  </div>
+</footer>
+
+<script src="./script.js"></script>
+</body>
+</html>
