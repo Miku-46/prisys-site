@@ -1,76 +1,230 @@
 <!doctype html>
 <html lang="ja">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>病みかわ♡センセーション｜公式サイト</title>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>病みかわ♡センセーション｜公式サイト</title>
+  <meta name="description" content="病みかわ♡センセーション（病みかわセンセーション）公式サイト。公開予定 / 新メンバー募集中 / 病みかわ委員会（運営）" />
+  <meta name="theme-color" content="#0c0716" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
+  <a class="skip" href="#main">本文へ</a>
 
-<header class="header">
-  <div class="container">
-    <h1 class="logo">病みかわ♡センセーション</h1>
-    <nav>
-      <a href="#members">MEMBER</a>
-      <a href="#company">COMPANY</a>
-    </nav>
-  </div>
-</header>
+  <header class="header" data-scrolled="false">
+    <div class="container header__inner">
+      <a class="brand" href="./index.html" aria-label="病みかわ♡センセーション ホーム">
+        <span class="brand__mark">🖤</span>
+        <span class="brand__text">
+          <span class="brand__name">病みかわ♡センセーション</span>
+          <span class="brand__sub">依存 × 共犯 × きらきら闇</span>
+        </span>
+      </a>
 
-<section class="hero">
-  <h2>依存 × 共犯 × きらきら闇</h2>
-  <p>あなたはもう、逃げられない。</p>
-</section>
+      <nav class="nav" aria-label="メインナビゲーション">
+        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="navMenu">
+          <span class="nav__toggleIcon" aria-hidden="true"></span>
+          <span class="nav__toggleText">MENU</span>
+        </button>
+        <div class="nav__menu" id="navMenu">
+          <a href="#about">ABOUT</a>
+          <a href="./members.html">MEMBER</a>
+          <a href="./audition.html" class="nav__hot">AUDITION</a>
+          <a href="./cafe.html">CONCAFE</a>
+          <a href="#company">運営情報</a>
+        </div>
+      </nav>
+    </div>
+  </header>
 
-<section id="members" class="section">
-<h2>MEMBER</h2>
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <div class="hero__copy">
+          <p class="pill">COMING SOON</p>
+          <h1 class="hero__title">
+            病みかわ♡センセーション
+            <span class="hero__titleSub">（病みかわセンセーション）</span>
+          </h1>
+          <p class="hero__lead">
+            依存 × 共犯 × きらきら闇。<br>
+            “かわいい”の奥に、逃げられない闇を。
+          </p>
 
-<div class="member pink">
-<h3>💉 姫乃 める</h3>
-<p>未読つけたら、泣いちゃうよ？</p>
-</div>
+          <div class="hero__cta">
+            <a class="btn" href="./audition.html">新メンバー募集中</a>
+            <a class="btn btn--ghost" href="./members.html">公式プロフィール</a>
+          </div>
 
-<div class="member black">
-<h3>🖤 黒羽 るる</h3>
-<p>目、逸らさないで。最後まで見てて。</p>
-</div>
+          <div class="hero__meta">
+            <div class="metaChip">更新：<span class="js-today">-</span></div>
+            <div class="metaChip"><a href="mailto:yami.kawa.sensation@gmail.com">yami.kawa.sensation@gmail.com</a></div>
+            <div class="metaChip"><a href="tel:08042974059">080-4297-4059</a></div>
+          </div>
+        </div>
 
-<div class="member white">
-<h3>🩹 白雪 ましろ</h3>
-<p>壊れちゃう前に、抱きしめて？</p>
-</div>
+        <aside class="hero__card" aria-label="お知らせ">
+          <div class="card card--glass">
+            <div class="card__head">
+              <h2>NEWS</h2>
+              <p>運営からのお知らせ</p>
+            </div>
 
-<div class="member red">
-<h3>🍓 神崎 いちご</h3>
-<p>全部ちょうだい。中途半端は嫌い。</p>
-</div>
+            <div class="card__list">
+              <a class="listItem" href="./audition.html">
+                <span class="tag tag--pink">募集</span>
+                <span class="listItem__title">新メンバーオーディション受付中</span>
+                <span class="listItem__meta">応募窓口：病みかわ委員会</span>
+              </a>
+              <a class="listItem" href="./members.html">
+                <span class="tag tag--purple">公開</span>
+                <span class="listItem__title">公式プロフィールを公開しました</span>
+                <span class="listItem__meta">MEMBERページへ</span>
+              </a>
+              <a class="listItem" href="./cafe.html">
+                <span class="tag tag--blue">CONCAFE</span>
+                <span class="listItem__title">コンカフェ運営（展開）情報</span>
+                <span class="listItem__meta">世界観を“会える体験”へ</span>
+              </a>
+            </div>
 
-<div class="member purple">
-<h3>🗝️ 黒瀬 新</h3>
-<p>依存じゃない。共犯でしょ？</p>
-</div>
+            <div class="card__foot">
+              <a class="link" href="#company">運営情報 →</a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
 
-</section>
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section__head">
+          <h2>ABOUT</h2>
+          <p>世界観 / 方針</p>
+        </div>
 
-<section id="company" class="section dark">
-<h2>運営情報</h2>
+        <div class="grid grid--2">
+          <article class="card">
+            <h3 class="h3">世界観</h3>
+            <p class="muted">
+              病みかわ♡センセーションは、<br>
+              <strong>「依存×共犯×きらきら闇」</strong>をテーマに、
+              “かわいい”を武器にしながら、心の奥に刺さる物語を届けます。
+            </p>
+            <div class="chips">
+              <span class="chip">病みかわ</span>
+              <span class="chip">共犯</span>
+              <span class="chip">きらきら闇</span>
+              <span class="chip">没入</span>
+            </div>
+          </article>
 
-<p><strong>運営委員会：</strong>病みかわ委員会</p>
-<p><strong>担当マネージャー：</strong>080-4297-4059</p>
-<p><strong>MAIL：</strong>yami.kawa.sensation@gmail.com</p>
+          <article class="card card--gradient">
+            <h3 class="h3">公開予定 / 募集</h3>
+            <ul class="bullets">
+              <li>現在：公開準備中（COMING SOON）</li>
+              <li>現在：新メンバー募集中</li>
+              <li>応募：メール応募（写真添付）</li>
+            </ul>
+            <div class="actions">
+              <a class="btn btn--mini" href="./audition.html">募集ページへ</a>
+              <a class="btn btn--mini btn--ghost" href="./members.html">プロフィールを見る</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
 
-<hr>
+    <!-- FEATURE -->
+    <section class="section section--alt">
+      <div class="container">
+        <div class="section__head">
+          <h2>PROJECT</h2>
+          <p>アイドル × コンカフェ</p>
+        </div>
 
-<p><strong>運営会社：</strong>株式会社菊池</p>
-<p>東京都新宿区西新宿3丁目3番13号 西新宿水間ビル2F</p>
+        <div class="grid grid--3">
+          <div class="card">
+            <h3 class="h3">IDOL</h3>
+            <p class="muted">ライブ・制作・SNS運用を中心に、世界観を“作品”として届けます。</p>
+          </div>
+          <div class="card">
+            <h3 class="h3">CONCAFE</h3>
+            <p class="muted">“会える体験”へ拡張。世界観を体験できる場の運営・展開を計画/運営します。</p>
+          </div>
+          <div class="card">
+            <h3 class="h3">BRAND</h3>
+            <p class="muted">闇×可愛いを軸に、ビジュアル・ストーリー・導線を統一して強いブランドへ。</p>
+          </div>
+        </div>
 
-</section>
+        <div class="ctaRow">
+          <div class="ctaRow__text">
+            <div class="ctaRow__title">コンカフェ運営について</div>
+            <div class="muted">コンセプト・運営方針・採用情報（予定）をまとめています。</div>
+          </div>
+          <a class="btn" href="./cafe.html">CONCAFEページへ</a>
+        </div>
+      </div>
+    </section>
 
-<footer>
-© 病みかわ♡センセーション
-</footer>
+    <!-- COMPANY -->
+    <section class="section" id="company">
+      <div class="container">
+        <div class="section__head">
+          <h2>運営情報</h2>
+          <p>窓口 / 運営 / 会社情報</p>
+        </div>
 
+        <div class="grid grid--2">
+          <div class="card">
+            <h3 class="h3">運営委員会</h3>
+            <dl class="dl">
+              <div><dt>委員会名</dt><dd>病みかわ委員会</dd></div>
+              <div><dt>TEL</dt><dd><a class="link" href="tel:08042974059">080-4297-4059（担当マネージャー）</a></dd></div>
+              <div><dt>MAIL</dt><dd><a class="link" href="mailto:yami.kawa.sensation@gmail.com">yami.kawa.sensation@gmail.com</a></dd></div>
+            </dl>
+            <div class="miniLinks">
+              <a class="link" href="./audition.html">募集ページ →</a>
+              <a class="link" href="./members.html">プロフィール →</a>
+            </div>
+          </div>
+
+          <div class="card card--glass">
+            <h3 class="h3">運営会社（株式会社菊池）</h3>
+            <dl class="dl">
+              <div><dt>会社名</dt><dd>株式会社菊池</dd></div>
+              <div><dt>所在地</dt><dd>東京都新宿区西新宿3丁目3番13号 西新宿水間ビル2F</dd></div>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__left">
+        <div class="footerBrand">
+          <span class="footerBrand__mark">🖤</span>
+          <span class="footerBrand__text">病みかわ♡センセーション</span>
+        </div>
+        <div class="footer__small">© <span id="year">2026</span> 病みかわ委員会 / 株式会社菊池</div>
+      </div>
+      <div class="footer__right">
+        <a class="link" href="#top">上へ ↑</a>
+        <a class="link" href="./audition.html">AUDITION →</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
 </body>
 </html>
